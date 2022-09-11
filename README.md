@@ -7,7 +7,7 @@
 
 `The ColorID in JavaScript`
 
-`一款基于颜色表示身份的随机身份生成器 ColorID 在 JavaScript 的实现`
+`一款基于颜色表示身份的随机 ID 生成器`
 
 ## Install
 
@@ -23,6 +23,28 @@ import colorid from "colorid.js";
 colorid(); // => 60d643-d643d0-43d0c6-d0c687
 ```
 
+
+## Performance
+
+```rust
+crypto.randomUUID    8,374,567 ops/sec
+colorid              3,233,853 ops/sec
+nanoid               2,842,500 ops/sec
+uuid v4                901,464 ops/sec
+```
+
+
+Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz, Node.js 18.9.0
+
+[(runs: 8291927511)](https://github.com/rustq/colorid.js/runs/8291927511)
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+## Links
+
+[rustq](https://github.com/rustq)
+
+[rustq/colorid](https://github.com/rustq/colorid)
