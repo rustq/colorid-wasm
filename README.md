@@ -7,7 +7,7 @@
 
 `The ColorID in JavaScript`
 
-`一款基于颜色表示身份的随机 ID 生成器`
+`一款基于颜色表示身份的 JavaScript 随机 ID 生成器`
 
 ## Install
 
@@ -43,8 +43,7 @@ Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz,
 
 [MIT](https://opensource.org/licenses/MIT)
 
-## Links
 
-[rustq](https://github.com/rustq)
+## Color ID in Other Languages
 
-[rustq/colorid](https://github.com/rustq/colorid)
+- [Rust](https://github.com/rustq/colorid)
