@@ -1,0 +1,43 @@
+{
+  "name": "colorid.js",
+  "version": "0.0.0-dev.10",
+  "description": "The ColorID in JavaScript",
+  "repository": "git@github.com:rustq/colorid-js.git",
+  "license": "MIT",
+  "keywords": [
+    "colorid",
+    "colorid-js"
+  ],
+  "typings": "typings/colorid.d.ts",
+  "exports": {
+    ".": {
+      "browser": "./lib/umd/colorid.js",
+      "default": "./lib/cjs/colorid.js"
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/node": "^18.7.16",
+    "benchmark": "^2.1.4",
+    "nanoid": "3",
+    "rollup": "^2.14.0",
+    "tslib": "^2.4.0",
+    "prettier": "2",
+    "typescript": "^4.8.3",
+    "uuid": "8"
+  },
+  "scripts": {
+    "build": "rollup -c && tsc -b ./tsconfig.types.json",
+    "dev": "rollup -c -w",
+    "benchmark": "node benchmarks/benchmark.js",
+    "prettier": "prettier . -w",
+    "test": "node test/test.js"
+  },
+  "files": [
+    "lib",
+    "typings",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
+}
