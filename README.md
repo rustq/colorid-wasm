@@ -43,6 +43,7 @@ Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz,
 
 [MIT](https://opensource.org/licenses/MIT)
 
+
 ## Color ID in Other Languages
 
 - [Rust](https://github.com/rustq/colorid)
