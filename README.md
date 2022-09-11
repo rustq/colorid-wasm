@@ -46,4 +46,5 @@ Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz,
 ## Links
 
 [rustq: https://github.com/rustq](https://github.com/rustq)
+
 [rustq/colorid: https://github.com/rustq/colorid](https://github.com/rustq/colorid)
