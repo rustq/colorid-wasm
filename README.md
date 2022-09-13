@@ -20,12 +20,12 @@ $ npm i colorid.js
 ```js
 import colorid from "colorid.js";
 
-colorid(); // #ADCB4C-#CB4C4D-#4C4DE2-#4DE212
+colorid(); // #5B34F9-#34F9DF-#F9DF4E-#DF4EB5
 ```
 
-`#ADCB4C-#CB4C4D-#4C4DE2-#4DE212`
+`#5B34F9-#34F9DF-#F9DF4E-#DF4EB5`
 
-<img src="https://user-images.githubusercontent.com/11075892/189937743-c1d12cd6-094c-458a-a56e-8b538d94eeac.svg" width="300px">
+<img src="https://user-images.githubusercontent.com/11075892/189944569-e00bfbaf-7e6e-408d-8a60-32994f79a2a2.svg" width="300px">
 
 
 ## Performance
