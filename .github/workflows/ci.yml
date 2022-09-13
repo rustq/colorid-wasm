@@ -17,6 +17,7 @@ jobs:
       - run: npm i
       - run: npm run build
       - run: npm run test
+      - run: npm run example
       - run: |
           npm run benchmark
           cat /proc/cpuinfo

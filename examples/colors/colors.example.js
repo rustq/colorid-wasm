@@ -5,7 +5,7 @@ const svg = fs.readFileSync("./4color-theorem.svg", "utf8");
 
 function generate() {
   const id = colorid();
-  const colors = id.split("-").map((color) => "#" + color);
+  const colors = id.split("-");
 
   const origins = ["#f0e442", "#d55e00", "#009e73", "#0072b2"];
 

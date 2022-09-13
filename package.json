@@ -1,6 +1,6 @@
 {
   "name": "colorid.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The ColorID in JavaScript",
   "repository": "git@github.com:rustq/colorid-js.git",
   "license": "MIT",
@@ -27,6 +27,7 @@
     "uuid": "8"
   },
   "scripts": {
+    "example": "node ./examples/id/id.example.js",
     "build": "rollup -c && tsc -b ./tsconfig.types.json",
     "dev": "rollup -c -w",
     "benchmark": "node benchmarks/benchmark.js",
