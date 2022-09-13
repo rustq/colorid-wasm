@@ -20,23 +20,23 @@ $ npm i colorid.js
 ```js
 import colorid from "colorid.js";
 
-colorid(); // #ae6003-#600369-#03692a-#692a76
+colorid(); // #AF1558-#1558A3-#58A3B7-#A3B7B9
 ```
 
 
 ## Performance
 
 ```rust
-crypto.randomUUID    8,374,567 ops/sec
-colorid              3,233,853 ops/sec
-nanoid               2,842,500 ops/sec
-uuid v4                901,464 ops/sec
+crypto.randomUUID    8,829,532 ops/sec
+colorid              3,252,649 ops/sec
+nanoid               2,925,204 ops/sec
+uuid v4                910,855 ops/sec
 ```
 
 
-Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz, Node.js 18.9.0
+Benchmark configuration: Ubuntu, Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz, Node.js 18.9.0
 
-[(runs: 8291927511)](https://github.com/rustq/colorid.js/runs/8291927511)
+[(runs: 3045998209)](https://github.com/rustq/colorid.js/actions/runs/3045998209/jobs/4908256305)
 
 
 ## License
