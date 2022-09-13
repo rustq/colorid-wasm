@@ -27,6 +27,7 @@
     "uuid": "8"
   },
   "scripts": {
+    "example": "node ./examples/id/id.example.js",
     "build": "rollup -c && tsc -b ./tsconfig.types.json",
     "dev": "rollup -c -w",
     "benchmark": "node benchmarks/benchmark.js",

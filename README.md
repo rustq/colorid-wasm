@@ -5,7 +5,7 @@
 
 [![license](https://img.shields.io/npm/l/colorid.js?color=red)](https://revolunet.mit-license.org/) [![npm](https://img.shields.io/npm/v/colorid.js?color=cyan)](https://www.npmjs.com/package/colorid.js) [![downloads](https://img.shields.io/npm/dm/colorid.js)](https://www.npmjs.com/package/colorid.js)
 
-`The ColorID in JavaScript`
+`Color as Identify - The ColorID in JavaScript`
 
 `一款基于颜色表示身份的 JavaScript 随机 ID 生成器`
 
@@ -20,7 +20,7 @@ $ npm i colorid.js
 ```js
 import colorid from "colorid.js";
 
-colorid(); // => 60d643-d643d0-43d0c6-d0c687
+colorid(); // #ae6003-#600369-#03692a-#692a76
 ```
 
 
