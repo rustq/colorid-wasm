@@ -1,6 +1,6 @@
 {
   "name": "colorid.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The ColorID in JavaScript",
   "repository": "git@github.com:rustq/colorid-js.git",
   "license": "MIT",
