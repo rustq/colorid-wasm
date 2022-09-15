@@ -5,7 +5,7 @@
 
 [![license](https://img.shields.io/npm/l/colorid.js?color=red)](https://revolunet.mit-license.org/) [![npm](https://img.shields.io/npm/v/colorid.js?color=cyan)](https://www.npmjs.com/package/colorid.js) [![downloads](https://img.shields.io/npm/dm/colorid.js)](https://www.npmjs.com/package/colorid.js)
 
-`Color as Identify - The unique string ID generator ColorID in JavaScript`
+`Color as Identify - The unique color-ID string generator in JavaScript`
 
 `ColorID consists by 4 colors in the RGB channel from 12 unsigned 8 bits numbers (u8), so the theoretical total of ColorID is (2^8)^12 = 2^96 ≈ 7*10^28, which means that even if the ColorID is generated for every 7.8 billion people in the world every second, it will take 300 billion years to use up all ColorID.`
 
