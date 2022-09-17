@@ -15,10 +15,6 @@ The `ColorID` is consisted by 4 colors in the RGB channel from 12 unsigned 8 bit
 
 Because the Four color theorem, if we need to color the regions of any social avatars or NFTs so that no two adjacent regions have the same color, four colors is enough!
 
-`ColorID: #5B34F9-#34F9DF-#F9DF4E-#DF4EB5`
-
-<img src="https://user-images.githubusercontent.com/11075892/189944569-e00bfbaf-7e6e-408d-8a60-32994f79a2a2.svg" width="300px">
-
 一款基于 4 种颜色来表示身份的 `JavaScript` 随机 ID 生成器。
 
 在性能表现上 `ColorID` 比 `UUID`、`NanoID` 等库表现更好 (虽然 `ColorID` 的生成算法实际上和 `UUID.V4` 非常相似)。
@@ -42,6 +38,10 @@ import colorid from "colorid.js";
 
 colorid(); // #5B34F9-#34F9DF-#F9DF4E-#DF4EB5
 ```
+
+`#5B34F9-#34F9DF-#F9DF4E-#DF4EB5`
+
+<img src="https://user-images.githubusercontent.com/11075892/189944569-e00bfbaf-7e6e-408d-8a60-32994f79a2a2.svg" width="300px">
 
 ## Performance
 
