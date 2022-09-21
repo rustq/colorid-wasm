@@ -1,12 +1,12 @@
 {
   "name": "colorid.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The unique 4-colors-ID string generator in JavaScript",
-  "repository": "git@github.com:rustq/colorid-js.git",
+  "repository": "git@github.com:rustq/colorid.js.git",
   "license": "MIT",
   "keywords": [
     "colorid",
-    "colorid-js"
+    "colorid.js"
   ],
   "typings": "typings/colorid.d.ts",
   "exports": {
