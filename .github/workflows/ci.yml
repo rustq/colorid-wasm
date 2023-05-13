@@ -15,14 +15,31 @@ jobs:
         with:
           node-version: 18
       - run: npm i
-      - run: npm run build
-      - run: npm run test
-      - run: npm run example
+      - uses: actions-rs/toolchain@v1
+        with:
+            toolchain: nightly
+            components: clippy
+            override: true
+      - name: Build and test colorid
+        run: |
+          cd colorid
+          cargo test
+          cargo build
+          cargo bench
+      - name: Set up wasm-pack
+        run: |
+          cargo install wasm-pack
+          wasm-pack -V
+      - name: Build colorid-wasm
+        run: |
+          cd colorid-wasm
+          wasm-pack build --release --target web
       - run: |
-          npm run benchmark
           cat /proc/cpuinfo
           cat /proc/meminfo
-      - run: |
+      - name: Publish action
+        run: |
+          cd colorid-wasm/pkg
           if git log -1 --pretty=%B | grep "^[0-9]\+\.[0-9]\+\.[0-9]\+$";
           then
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc

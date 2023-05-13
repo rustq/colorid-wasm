@@ -1,0 +1,20 @@
+[package]
+name = "colorid-workspace"
+version = "0.0.0"
+license = "MIT"
+description = "The unique 4-colors-ID string generator wasm binding in Rust"
+edition = "2021"
+authors = ["RustQ"]
+include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md", "benches", "examples"]
+homepage = "https://github.com/rustq/colorid-wasm"
+readme = "README.md"
+keywords = ["colorid", "wasm", "color", "id", "random"]
+repository = "https://github.com/rustq/colorid-wasm.git"
+
+
+[workspace]
+members = ["colorid", "colorid-wasm"]
+
+
+[dependencies]
+

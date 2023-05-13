@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "./typings",
-    "emitDeclarationOnly": true,
-    "rootDir": "./src"
-  }
-}

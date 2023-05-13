@@ -1,44 +1,16 @@
 {
-  "name": "colorid.js",
-  "version": "0.0.6",
-  "description": "The unique 4-colors-ID string generator in JavaScript",
-  "repository": "git@github.com:rustq/colorid.js.git",
-  "license": "MIT",
-  "keywords": [
-    "colorid",
-    "colorid.js"
-  ],
-  "typings": "typings/colorid.d.ts",
-  "exports": {
-    ".": {
-      "browser": "./lib/umd/colorid.js",
-      "default": "./lib/cjs/colorid.js"
-    }
-  },
-  "devDependencies": {
-    "@rollup/plugin-typescript": "^8.5.0",
-    "@types/node": "^18.7.16",
-    "benchmark": "^2.1.4",
-    "nanoid": "3",
-    "rollup": "^2.14.0",
-    "tslib": "^2.4.0",
-    "prettier": "2",
-    "typescript": "^4.8.3",
-    "uuid": "8"
-  },
+  "name": "colorid-workspace",
+  "version": "0.0.1",
   "scripts": {
-    "example": "node ./examples/id/id.example.js",
-    "build": "rollup -c && tsc -b ./tsconfig.types.json",
-    "dev": "rollup -c -w",
-    "benchmark": "node benchmarks/benchmark.js",
-    "prettier": "prettier . -w",
-    "test": "node test/test.js"
+    "cypress:open": "cypress open",
+    "http-server": "http-server -p 9000"
   },
-  "files": [
-    "lib",
-    "typings",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ]
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "http-server": "^14.1.1",
+    "nanoid": "^4.0.2",
+    "uuid": "^9.0.0"
+  }
 }
